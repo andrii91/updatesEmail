@@ -1,0 +1,215 @@
+<mjml>
+<mj-head>
+		<mj-title>Updates </mj-title>
+		<mj-preview>Updates </mj-preview>
+		<mj-attributes>
+      <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+			<mj-all font-family="'Inter',  Helvetica, Arial, sans-serif"></mj-all>
+			<mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Inter', Helvetica, Arial, sans-serif"></mj-text>
+		</mj-attributes>
+    <mj-style inline="inline">
+			.body-section {
+				-webkit-box-shadow: 0px 4px 84px #00000026;
+				-moz-box-shadow: 0px 4px 84px #00000026;
+				box-shadow: 0px 4px 84px #00000026; 
+        background-image: none !important;
+        background-repeat: no-repeat;
+        background-position: right top;
+      }
+      .head-bg {
+        background-image: url(images/component1.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 100%;
+        width: 100%;
+        height: 125px;
+        display: block;
+      }
+
+      .es-join-members {
+       	background-color: #FFFFFF;
+       	border: 1px solid #01AAFF;
+       	border-radius: 8px; 
+         margin: 0 40px !important;
+      }
+      a {
+        color: #BDC6D2;
+        text-decoration: none;
+      }
+
+      .colum-img {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 40px rgba(193, 199, 233, 0.25);
+        border-radius: 0px 0px 16px 16px;
+        width: 100%;
+        max-width: 240px;
+      }
+
+    .footer-bg {
+        background-position: left bottom !important;
+        background-image: url(images/group4009.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+  .box-shadow {
+    border: 2px solid #FFFFFF;
+box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+border-radius: 4px;
+  }
+  
+     
+		</mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper background-color="#FFFFFF" padding="0px 0 0"  css-class="body-section ">
+        <!-- Company Header -->
+        <mj-section padding="0px 0 20px 40px">
+            <mj-column padding="0">
+              <mj-table padding="0">
+              <tr>
+                <td style="padding: 0; width: 30%; text-align: left;"> 
+                  <img src="images/logo.png" style="width: 150px; ">
+                </td>
+                <td style="padding: 0 ;width: 70%;">
+                  <span  class="head-bg"></span>  
+                </td>
+              </tr>
+            </mj-table>
+            </mj-column>
+        </mj-section> 
+
+        <mj-section padding="4px 40px 40px" >
+          <mj-column padding="0">
+            <mj-text padding="0 0 12px" font-size="28px" font-weight="700" align="center">PPC metrics Calculation 4.0</mj-text>
+            <mj-text padding="0">
+              <a href="#" style="display: block; text-align: center;font-weight: bold;font-size: 16px;line-height: 24px;text-align: center;letter-spacing: -0.0028em;text-decoration-line: underline;color: #2690EB;">Lorem Ipsum</a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0px 40px 44px">
+          <mj-column padding="0">
+            <mj-image css-class="box-shadow" padding="0 0 " src="images/frame2984.png" alt="" />
+            <mj-text padding="40px 0 0" align="center" font-size="18px" line-height="36px" color="#000000">
+              Fixed the discrepancies issue between seller central and ES for the Average Cost-perClick
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="44px 40px 0px">
+          <mj-column padding="0 0 12px" width="100%">
+            <mj-text padding="0" font-size="22px" line-height="33px" font-weight="700" color="#000000"> See what else is new</mj-text>
+          </mj-column>
+
+          <mj-column padding='0 0 10px' width="45%">
+            <mj-image css-class="colum-img" padding="0" src="images/rectangle1055.png"  alt="" />
+          </mj-column>
+          <mj-column width="10%"></mj-column>
+          <mj-column padding='0 0 10px' width="45%">
+            <mj-text padding="0" font-size="16px" line-height="24px" font-weight="700">
+              PPC metrics Calculation
+            </mj-text>
+            <mj-text padding="0" font-size="16px" line-height="32px" >
+              Fixed the discrepancies issue between seller central and ES for the Average Cost-perClick. <a href="#" style="display:block; color:#2690EB; font-weight: 700;font-size: 16px;line-height: 24px;text-align: left;letter-spacing: -0.0028em;text-decoration-line: underline;">Link</a>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="100%">
+            <mj-spacer height="50px" />
+          </mj-column>
+
+          <mj-column padding='0 0 10px' width="45%">
+            <mj-image css-class="colum-img" padding="0" src="images/rectangle1056.png"  alt="" />
+          </mj-column>
+          <mj-column width="10%"></mj-column>
+          <mj-column padding='0 0 10px' width="45%">
+            <mj-text padding="0" font-size="16px" line-height="24px" font-weight="700">
+              New ManyChat integration flow 
+            </mj-text>
+            <mj-text padding="0" font-size="16px" line-height="32px" >
+              New post purchase ManyChat flow is now available. <a href="#" style="display:block; text-align: left; color:#2690EB; font-weight: 700;font-size: 16px;line-height: 24px;text-align: left;letter-spacing: -0.0028em;text-decoration-line: underline;">Link</a>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="100%">
+            <mj-spacer height="50px" />
+          </mj-column>
+
+          <mj-column padding='0 0 10px' width="45%">
+            <mj-image css-class="colum-img" padding="0" src="images/rectangle1057.png"   alt="" />
+          </mj-column>
+          <mj-column width="10%"></mj-column>
+          <mj-column padding='0 0 60px' width="45%">
+            <mj-text padding="0" font-size="16px" line-height="24px" font-weight="700">
+              Extended Amazon Fees Breakdown
+            </mj-text>
+            <mj-text padding="0" font-size="16px" line-height="32px" >
+              Added additional information: Taes; Shipping cost; Giftwwrpaps, Ads cost. <a href="#" style="color:#2690EB; font-weight: 700;font-size: 16px;line-height: 24px;display:block; text-align: left;letter-spacing: -0.0028em;text-decoration-line: underline;">Link</a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section> 
+          <mj-column padding="10px 40px 40px">
+            <mj-button font-size="16px" line-height="24px" inner-padding="15px 25px" font-weight="700" background-color="#FF6067" color="white" href="#">
+              Verify my email
+            </mj-button>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="40px 0px 20px 0" css-class="footer-bg"    >
+          <mj-column padding="0 10px 40px" >
+            <mj-image href="#" padding="0 0 8px" width="110px" align="center"  src="images/group2712.png" alt="" />
+            <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Support</mj-text>
+          </mj-column>
+          <mj-column padding="0 10px 40px">
+            <mj-image href="#" padding="0 0 8px" width="110px" align="center"   src="images/group3873.png" alt="" />
+            <mj-text padding="0" color="#19153E" align="center"  font-weight="700">Blog</mj-text>
+          </mj-column>
+          <mj-column padding="0 10px 40px">
+            <mj-image href="#" padding="0 0 8px" width="110px" align="center"  src="images/group3833.png" alt="" />
+            <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Learning</mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0px 0 0">
+            <mj-column padding="0"><mj-divider padding="0"  border-width="1px" border-style="solid" border-color="#E6E6E6" /></mj-column>
+        </mj-section>
+
+        <mj-section padding="30px 40px 25px">
+          <mj-column padding="0">
+            <mj-text align="center" font-size="12px" line-height="18px" color="#505876" padding="0">
+              Copyright © 2020 EliteSeller Inc. All rights reserved. Address: Something something, 544-232.
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0px 40px 30px">
+          <mj-column padding="0">
+            <mj-table>
+            
+              <tr>
+                <td style="padding: 0; width: 50%; text-align: right;"> 
+                  <a href="#youtube"><img src="images/youtube.png" width="56px"></a>
+                </td>
+                <td style="padding: 0 ;width: 50%;">
+                  <a href="#fb" style="padding-left: 23px;"><img src="images/fb.png" width="23px"></a>
+                </td>
+              </tr>
+            
+            </mj-table>
+          </mj-column>
+        </mj-section>
+        
+        <mj-section padding="0 40px 25px">
+          <mj-column>
+            <mj-text padding="0" text-decoration="none" color="#BDC6D2" font-size="12px" line-height="18px" align="center"> 
+              <a  href="#">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Contact Support </a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+    </mj-wrapper>
+   
+  </mj-body> 
+</mjml> 
