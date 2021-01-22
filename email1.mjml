@@ -41,10 +41,11 @@
         background: #FFFFFF;
         box-shadow: 0px 4px 40px rgba(193, 199, 233, 0.25);
         border-radius: 0px 0px 16px 16px;
-        width: 100%;
-        max-width: 240px;
+        width: 100% !important;
       }
-
+   .colum-img td {
+      width: 100%
+    }
     .footer-bg {
         background-position: left bottom !important;
         background-image: url(images/group4009.png);
@@ -80,7 +81,7 @@ border-radius: 4px;
 
         <mj-section padding="4px 40px 40px" >
           <mj-column padding="0">
-            <mj-text padding="0 0 12px" font-size="28px" font-weight="700" align="center">PPC metrics Calculation 4.0</mj-text>
+            <mj-text padding="0 0 12px" font-size="28px" line-height="1.2" font-weight="700" align="center">PPC metrics Calculation 4.0</mj-text>
             <mj-text padding="0">
               <a href="#" style="display: block; text-align: center;font-weight: bold;font-size: 16px;line-height: 24px;text-align: center;letter-spacing: -0.0028em;text-decoration-line: underline;color: #2690EB;">Lorem Ipsum</a>
             </mj-text>
