@@ -1,0 +1,267 @@
+<mjml>
+<mj-head>
+
+<!--
+
+<style type="text/css">
+    @media only screen and (min-width:480px) {
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+
+      .mj-column-per-33-333333333333336 {
+        width: 33.333333333333336% !important;
+        max-width: 33.333333333333336%;
+      }
+      .colum-text {
+        margin-bottom: 30px;
+      }
+    }
+  </style>
+  <style type="text/css">
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile {
+        width: 100% !important;
+      }
+
+      td.mj-full-width-mobile {
+        width: auto !important;
+      }
+      .colum-img {
+        float: none !important;
+        max-width: 100% !important;
+      }
+      .colum-text {
+        max-width: 80% !important;
+        padding: 0 !important;
+        margin: 0px 10% 40px !important;
+      }
+      .head-bg {
+        background-image: url(images/component2.png)!important;
+        background-repeat: no-repeat!important;
+        background-position: right top!important;
+        background-size: 100%!important;
+        height: 110px !important;
+        max-width: 210px !important;
+        margin-left: auto !important;
+      }
+    }
+  </style>
+
+-->
+		<mj-title>Updates </mj-title>
+		<mj-preview>Updates </mj-preview>
+		<mj-attributes>
+      <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+			<mj-all font-family="'Inter',  Helvetica, Arial, sans-serif"></mj-all>
+			<mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Inter', Helvetica, Arial, sans-serif"></mj-text>
+		</mj-attributes>
+    <mj-style inline="inline">
+			.body-section {
+				-webkit-box-shadow: 0px 4px 84px #00000026;
+				-moz-box-shadow: 0px 4px 84px #00000026;
+				box-shadow: 0px 4px 84px #00000026; 
+        background-image: none !important;
+        background-repeat: no-repeat;
+        background-position: right top;
+      }
+      .head-bg {
+        background-image: url(images/component1.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 100%;
+        width: 100%;
+        height: 125px;
+        display: block;
+      }
+
+      .es-join-members {
+       	background-color: #FFFFFF;
+       	border: 1px solid #01AAFF;
+       	border-radius: 8px; 
+         margin: 0 40px !important;
+      }
+      a {
+        color: #BDC6D2;
+        text-decoration: none;
+      }
+
+      .colum-img {
+        background: #FFFFFF;
+        width: 100%;
+        max-width:45%;
+        float: left;  
+      }
+      .colum-img.float-right {
+          float: right;
+          max-width: 52%;
+              margin-top: -20px
+      }
+
+    .footer-bg {
+        background-position: left bottom !important;
+        background-image: url(images/group4009.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+  .box-shadow {
+    border: 2px solid #FFFFFF;
+box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+border-radius: 4px;
+  }
+  .colum-text {
+       max-width: 39%;
+       width: 100%;
+        display: inline-block;
+        padding-left: 8%;
+
+  }
+
+  .login-btn {
+      box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+  }
+  .align-left {
+      text-align: left;
+      margin-left: 0;
+      margin-right: 0;
+      
+  }
+  .bgright {
+       background-position: right top !important;
+        background-image: url(images/img1.png);
+        background-size: 242px;
+        background-size: 40%;
+        background-repeat: no-repeat;
+  }
+  
+     
+		</mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper background-color="#FFFFFF" padding="0px 0 0"  css-class="body-section ">
+        <!-- Company Header -->
+        <mj-section padding="0px 0 35px 40px">
+            <mj-column padding="0">
+              <mj-table padding="0">
+              <tr>
+                <td style="padding: 58px 0 0; width: 30%; text-align: left;"> 
+                  <img src="images/logo.png" style="width: 150px; ">
+                  <div style="height: 25px;"></div>
+                  <a href="#" style="display: block;   width: 108px; text-align: center; padding: 15px 0px;    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.15);border-radius: 3px; font-style: normal;font-weight: bold;font-size: 16px;line-height: 24px;color: #01AAFF;">Log in</a>
+                </td>
+                <td style="padding: 0 0 43px ;width: 70%;">
+                  <span  class="head-bg"></span>  
+                </td>
+              </tr>
+            </mj-table>
+            </mj-column>
+        </mj-section> 
+
+
+        <mj-section padding="4px 40px 10px" >
+          <mj-column padding="0">
+            <mj-text padding="0 0px" font-size="28px" line-height="42px" font-weight="700" align="center">Are you loving Elite Seller?</mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 0 0">
+            <mj-column padding="0">
+                <mj-image align="center" padding="0" src="images/img19.png" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="37px 40px 40px">
+            <mj-column padding="0">
+                <mj-text  padding="0 0 10px" font-size="18px" line-height="36px" font-weight="700" color="#00AAFF">
+                    Hi John,
+                </mj-text>
+                <mj-text padding="0 0 0px" font-size="16px" line-height="32px" font-weight="400" color="#19153E">
+                   As part of the Elite Seller community, your happiness and satisfaction with our platform are critical to us. Don’t waste a second not letting us know how we can help.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+       
+
+        <mj-section padding="40px 40px">
+            <mj-column padding="0">
+                <mj-text padding="0 0 40px" font-size="22px" line-height="33px" font-weight="700">
+                  Want to book a strategy call with one of our experts?
+                </mj-text>
+                <mj-button font-weight="700" font-size="16px" line-height="24px" inner-padding="15px 30px" border-radius="3px"	 padding="0" href="#"  background-color="#FF6565" color="white">
+                  Book a call
+                </mj-button>
+                <mj-text padding="40px 0 0" font-size="16px" line-height="32px" color="#19153E">
+                   Or, reply directly to this email if that is easier.
+                </mj-text>
+
+            </mj-column>
+        </mj-section>
+
+
+        <mj-section padding="40px 40px 60px">
+            <mj-column padding="0">
+            <mj-text padding="0" align="center" font-size="22px" font-weight="700" line-height="33px" >
+                <span style="display: block; color: #00AAFF;">We’re here for you all the way,</span> every step of the way!
+            </mj-text>
+            </mjcolumn>
+        </mj-section>
+
+        <mj-section padding="0px 0px 30px 0"   >
+          <mj-column padding="0 10px 40px" >
+            <mj-image href="#" padding="0 0 8px" width="110px" align="center"  src="images/group2712.png" alt="" />
+            <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Support</mj-text>
+          </mj-column>
+          <mj-column padding="0 10px 40px">
+            <mj-image href="#" padding="0 0 8px" width="110px" align="center"   src="images/group3873.png" alt="" />
+            <mj-text padding="0" color="#19153E" align="center"  font-weight="700">Blog</mj-text>
+          </mj-column>
+          <mj-column padding="0 10px 40px">
+            <mj-image href="#" padding="0 0 8px" width="110px" align="center"  src="images/group3833.png" alt="" />
+            <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Learning</mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0px 0 0">
+            <mj-column padding="0"><mj-divider padding="0"  border-width="1px" border-style="solid" border-color="#E6E6E6" /></mj-column>
+        </mj-section>
+
+        <mj-section padding="16px 40px 20px">
+          <mj-column padding="0">
+            <mj-text align="center" font-size="12px" line-height="18px" color="#505876" padding="0">
+             Copyright © 2021 Elite Seller Inc. All rights reserved. 
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0px 40px 20px">
+          <mj-column padding="0">
+            <mj-table>
+            
+              <tr>
+                <td style="padding: 0; width: 50%; text-align: right;"> 
+                  <a href="#youtube"><img src="images/youtube.png" width="56px"></a>
+                </td>
+                <td style="padding: 0 ;width: 50%;">
+                  <a href="#fb" style="padding-left: 23px;"><img src="images/fb.png" width="23px"></a>
+                </td>
+              </tr>
+            
+            </mj-table>
+          </mj-column>
+        </mj-section>
+        
+        <mj-section padding="0 40px 15px">
+          <mj-column>
+            <mj-text padding="0" text-decoration="none" color="#BDC6D2" font-size="12px" line-height="18px" align="center"> 
+              <a  href="#">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Contact Support </a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+    </mj-wrapper>
+   
+  </mj-body> 
+</mjml> 
