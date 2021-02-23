@@ -168,7 +168,7 @@ border-radius: 4px;
 
         <mj-section padding="0 4px 0 10%">
             <mj-column padding="0">
-                <mj-image align="center" padding="0" src="images/img28.png" />
+                <mj-image align="center" padding="0" src="images/img31.png" />
             </mj-column>
         </mj-section>
 
@@ -179,7 +179,7 @@ border-radius: 4px;
                 </mj-text>
                 <mj-text padding="0 0 0px" font-size="16px" line-height="32px" font-weight="400" color="#19153E">
                    Looks like you are still having issues with setup. <br>Let our team of experts get you back on track and ready to crush it.
-                </mj-text>
+                </mj-text> 
          
             </mj-column>
         </mj-section>
