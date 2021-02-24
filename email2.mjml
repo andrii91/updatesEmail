@@ -214,7 +214,7 @@ border-radius: 4px;
           </mj-column>
           <mj-column padding="0 10px 40px">
             <mj-image href="#" padding="0 0 8px" width="110px" align="center"  src="images/group3833.png" alt="" />
-            <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Learning</mj-text>
+            <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Training</mj-text>
           </mj-column>
         </mj-section>
 

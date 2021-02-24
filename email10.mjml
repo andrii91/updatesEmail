@@ -55,7 +55,7 @@
 		<mj-attributes>
       <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
 			<mj-all font-family="'Inter',  Helvetica, Arial, sans-serif"></mj-all>
-			<mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Inter', Helvetica, Arial, sans-serif"></mj-text>
+			<mj-text font-weight="400" font-size="16px" color="#19153E" line-height="24px" font-family="'Inter', Helvetica, Arial, sans-serif"></mj-text>
 		</mj-attributes>
     <mj-style inline="inline">
 			.body-section {
@@ -327,7 +327,7 @@ border-radius: 4px;
           </mj-column>
           <mj-column padding="0 10px 40px">
             <mj-image href="#" padding="0 0 8px" width="110px" align="center"  src="images/group3833.png" alt="" />
-            <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Learning</mj-text>
+            <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Training</mj-text>
           </mj-column>
         </mj-section>
 
@@ -345,14 +345,14 @@ border-radius: 4px;
 
         <mj-section padding="0px 40px 20px">
           <mj-column padding="0">
-            <mj-table>
+            <mj-table padding="0" font-size="0">
             
               <tr>
-                <td style="padding: 0; width: 50%; text-align: right;"> 
-                  <a href="#youtube"><img src="images/youtube.png" width="56px"></a>
+                <td style="padding: 0; width: 50%; text-align: right; font-size:0; line-height: 0;"> 
+                  <a href="#youtube" style="font-size:0;"><img src="images/youtube.png" width="56px"></a>
                 </td>
-                <td style="padding: 0 ;width: 50%;">
-                  <a href="#fb" style="padding-left: 23px;"><img src="images/fb.png" width="23px"></a>
+                <td style="padding: 0 ;width: 50%; font-size:0;  line-height: 0;">
+                  <a href="#fb" style="padding-left: 23px; font-size:0;"><img src="images/fb.png" width="23px"></a>
                 </td>
               </tr>
             
