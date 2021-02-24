@@ -195,7 +195,7 @@ border-radius: 4px;
             </mj-column>
             <mj-column width="10%" padding="0"></mj-column>
             <mj-column padding="15px 0" width="45%">
-                <mj-text padding="0 0 24px" font-size="16px" line-height="24px" font-weight="700">
+                <mj-text padding="0 0 4px" font-size="16px" line-height="24px" font-weight="700">
                     Customizable Dashboard
                 </mj-text>
                 <mj-text padding="0"  font-size="16px" line-height="32px" >
@@ -208,7 +208,7 @@ border-radius: 4px;
             </mj-column>
             <mj-column width="10%" padding="0"></mj-column>
             <mj-column padding="15px 0" width="45%">
-                <mj-text padding="0 0 24px" font-size="16px" line-height="24px" font-weight="700">
+                <mj-text padding="0 0 4px" font-size="16px" line-height="24px" font-weight="700">
                     KPIs
                 </mj-text>
                 <mj-text padding="0"  font-size="16px" line-height="32px" >
@@ -221,7 +221,7 @@ border-radius: 4px;
             </mj-column>
             <mj-column width="10%" padding="0"></mj-column>
             <mj-column padding="15px 0" width="45%">
-                <mj-text padding="0 0 24px" font-size="16px" line-height="24px" font-weight="700">
+                <mj-text padding="0 0 4px" font-size="16px" line-height="24px" font-weight="700">
                     Right Statistics
                 </mj-text>
                 <mj-text padding="0"  font-size="16px" line-height="32px" >
