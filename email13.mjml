@@ -59,12 +59,13 @@
 		</mj-attributes>
     <mj-style inline="inline">
 			.body-section {
-				-webkit-box-shadow: 0px 4px 84px #00000026;
-				-moz-box-shadow: 0px 4px 84px #00000026;
-				box-shadow: 0px 4px 84px #00000026; 
+				-webkit-box-shadow: 0px 5px 50px #CAE7FF;
+				-moz-box-shadow: 0px 5px 50px #CAE7FF;
+				box-shadow: 0px 5px 50px #CAE7FF; 
         background-image: none !important;
         background-repeat: no-repeat;
         background-position: right top;
+        border: 1px solid #CAE7FF;
       }
       .head-bg {
         background-image: url(images/component1.png);
