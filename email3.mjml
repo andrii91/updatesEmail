@@ -149,7 +149,7 @@ border-radius: 4px;
                 <td style="padding: 58px 0 0; width: 30%; text-align: left;"> 
                   <img src="images/logo.png" style="width: 150px; ">
                   <div style="height: 25px;"></div>
-                  <a href="#" style="display: block;   width: 108px; text-align: center; padding: 15px 0px;    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.15);border-radius: 3px; font-style: normal;font-weight: bold;font-size: 16px;line-height: 24px;color: #01AAFF;">Log in</a>
+                  <a href="#" style="display: block;   width: 108px; text-align: center; padding: 15px 0px;     font-style: normal;font-weight: bold;font-size: 16px;line-height: 24px;color: #01AAFF;border: 1px solid #F0F0F0;box-sizing: border-box;box-shadow: 0px 4px 15px rgba(135, 143, 148, 0.15);border-radius: 3px;">Log in</a>
                 </td>
                 <td style="padding: 0 0 43px ;width: 70%;">
                   <span  class="head-bg"></span>  
