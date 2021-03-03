@@ -61,18 +61,39 @@ border-radius: 4px;
   
      
 		</mj-style>
+
+    <style type="text/css">
+    @media only screen and (max-width:480px) {
+      .colum-img td {
+      width: 100%!important;
+    }
+    .mt15 {
+      margin-top: 15px !important;
+    }
+      table.mj-full-width-mobile {
+        width: 100% !important;
+      }
+
+      td.mj-full-width-mobile {
+        width: auto !important;
+      }
+    }
+  </style>
+  
   </mj-head>
   <mj-body>
     <mj-wrapper background-color="#FFFFFF" padding="0px 0 0"  css-class="body-section ">
         <!-- Company Header -->
-        <mj-section padding="0px 0 20px 40px">
+        <mj-section padding="0px 0 35px 40px">
             <mj-column padding="0">
               <mj-table padding="0">
               <tr>
-                <td style="padding: 0; width: 30%; text-align: left;"> 
-                  <img src="images/logo.png" style="width: 150px; ">
+                <td style="padding: 58px 0 0; width: 30%; text-align: left;"> 
+                  <a href="https://eliteseller.com/"><img src="images/logo.png" style="width: 150px; "></a>
+                  <div style="height: 25px;"></div>
+                  <a href="https://app.eliteseller.com/access/sign-in" style="display: block;   width: 108px; text-align: center; padding: 15px 0px;     font-style: normal;font-weight: bold;font-size: 16px;line-height: 24px;color: #01AAFF;border: 1px solid #F0F0F0;box-sizing: border-box;box-shadow: 0px 4px 15px rgba(135, 143, 148, 0.15);border-radius: 3px;">Log in</a>
                 </td>
-                <td style="padding: 0 ;width: 70%;">
+                <td style="padding: 0 0 43px ;width: 70%;">
                   <span  class="head-bg"></span>  
                 </td>
               </tr>
@@ -82,7 +103,7 @@ border-radius: 4px;
 
         <mj-section padding="4px 40px 40px" >
           <mj-column padding="0">
-            <mj-text padding="0 0 12px" font-size="28px" line-height="1.2" font-weight="700" align="center">PPC metrics Calculation 4.0</mj-text>
+            <mj-text padding="0 0 12px" font-size="28px" line-height="32px" font-weight="700" align="center">PPC metrics Calculation 4.0</mj-text>
             <mj-text padding="0">
               <a href="#" style="display: block; text-align: center;font-weight: bold;font-size: 16px;line-height: 24px;text-align: center;letter-spacing: -0.0028em;text-decoration-line: underline;color: #2690EB;">Lorem Ipsum</a>
             </mj-text>
@@ -159,7 +180,7 @@ border-radius: 4px;
           </mj-column>
         </mj-section>
 
-        <mj-section padding="40px 0px 20px 0" css-class="footer-bg"    >
+       <mj-section padding="0px 0px 30px 0"   >
           <mj-column padding="0 10px 40px" >
             <mj-image href="#" padding="0 0 8px" width="110px" align="center"  src="images/group2712.png" alt="" />
             <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Support</mj-text>
@@ -178,24 +199,24 @@ border-radius: 4px;
             <mj-column padding="0"><mj-divider padding="0"  border-width="1px" border-style="solid" border-color="#E6E6E6" /></mj-column>
         </mj-section>
 
-        <mj-section padding="30px 40px 25px">
+        <mj-section padding="16px 40px 20px">
           <mj-column padding="0">
             <mj-text align="center" font-size="12px" line-height="18px" color="#505876" padding="0">
-              Copyright © 2020 EliteSeller Inc. All rights reserved. Address: Something something, 544-232.
+             Copyright © 2021 Elite Seller Inc. All rights reserved. 
             </mj-text>
           </mj-column>
         </mj-section>
 
-        <mj-section padding="0px 40px 30px">
+        <mj-section padding="0px 40px 20px">
           <mj-column padding="0">
-            <mj-table>
+            <mj-table padding="0" font-size="0">
             
               <tr>
-                <td style="padding: 0; width: 50%; text-align: right;"> 
-                  <a href="#youtube"><img src="images/youtube.png" width="56px"></a>
+                <td style="padding: 0; width: 50%; text-align: right; font-size:0; line-height: 0;"> 
+                  <a href="#youtube" style="font-size:0;"><img src="images/youtube.png" width="56px"></a>
                 </td>
-                <td style="padding: 0 ;width: 50%;">
-                  <a href="#fb" style="padding-left: 23px;"><img src="images/fb.png" width="23px"></a>
+                <td style="padding: 0 ;width: 50%; font-size:0;  line-height: 0;">
+                  <a href="#fb" style="padding-left: 23px; font-size:0;"><img src="images/fb.png" width="23px"></a>
                 </td>
               </tr>
             
@@ -203,15 +224,13 @@ border-radius: 4px;
           </mj-column>
         </mj-section>
         
-        <mj-section padding="0 40px 25px">
+        <mj-section padding="0 40px 15px">
           <mj-column>
             <mj-text padding="0" text-decoration="none" color="#BDC6D2" font-size="12px" line-height="18px" align="center"> 
               <a  href="#">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Contact Support </a>
             </mj-text>
           </mj-column>
         </mj-section>
-
-    </mj-wrapper>
    
   </mj-body> 
 </mjml> 

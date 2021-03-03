@@ -1,0 +1,496 @@
+<mjml>
+<mj-head>
+
+<!--
+
+<style type="text/css">
+    @media only screen and (min-width:480px) {
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+
+      .mj-column-per-33-333333333333336 {
+        width: 33.333333333333336% !important;
+        max-width: 33.333333333333336%;
+      }
+      .colum-text {
+        margin-bottom: 30px;
+      }
+    }
+  </style>
+  <style type="text/css">
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile {
+        width: 100% !important;
+      }
+
+      td.mj-full-width-mobile {
+        width: auto !important;
+      }
+      .colum-img {
+        float: none !important;
+        max-width: 100% !important;
+      }
+      .colum-text {
+        max-width: 80% !important;
+        padding: 0 !important;
+        margin: 0px 10% 40px !important;
+      }
+      .head-bg {
+        background-image: url(images/component2.png)!important;
+        background-repeat: no-repeat!important;
+        background-position: right top!important;
+        background-size: 100%!important;
+        height: 110px !important;
+        max-width: 210px !important;
+        margin-left: auto !important;
+      }
+    }
+  </style>
+
+-->
+		<mj-title>Updates </mj-title>
+		<mj-preview>Updates </mj-preview>
+		<mj-attributes>
+      <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+			<mj-all font-family="'Inter',  Helvetica, Arial, sans-serif"></mj-all>
+			<mj-text font-weight="400" font-size="16px" color="#19153E" line-height="24px" font-family="'Inter', Helvetica, Arial, sans-serif"></mj-text>
+		</mj-attributes>
+    <mj-style inline="inline">
+			.body-section {
+				-webkit-box-shadow: 0px 5px 50px #CAE7FF;
+				-moz-box-shadow: 0px 5px 50px #CAE7FF;
+				box-shadow: 0px 5px 50px #CAE7FF; 
+        background-image: url('images/imgbg.png') !important;
+         background-color: #FFFFFF;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center 150px;
+        border: 1px solid #CAE7FF;
+      }
+
+      .review-bg {
+        border-radius: 15px;
+        background: url('images/imgbg1.png') !important;
+        background-size: cover !important;
+        background-position: center top;
+         background-repeat: no-repeat;
+      }
+      .head-bg {
+        background-image: url(images/component1.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 100%;
+        width: 100%;
+        height: 125px;
+        display: block;
+      }
+
+      .es-join-members {
+       	background-color: #FFFFFF;
+       	border: 1px solid #01AAFF;
+       	border-radius: 8px; 
+         margin: 0 40px !important;
+      }
+      a {
+        color: #BDC6D2;
+        text-decoration: none;
+      }
+
+      .colum-img {
+        background: #FFFFFF;
+        width: 100%;
+        max-width:45%;
+        float: left;  
+      }
+      .colum-img.float-right {
+          float: right;
+          max-width: 52%;
+              margin-top: -20px
+      }
+
+    .footer-bg {
+        background-position: left bottom !important;
+        background-image: url(images/group4009.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+  .box-shadow {
+    border: 2px solid #FFFFFF;
+box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+border-radius: 4px;
+  }
+  .colum-text {
+       max-width: 39%;
+       width: 100%;
+        display: inline-block;
+        padding-left: 8%;
+
+  }
+
+  .login-btn {
+      box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+  }
+  .align-left {
+      text-align: left;
+      margin-left: 0;
+      margin-right: 0;
+      
+  }
+  .bgright {
+       background-position: right top !important;
+        background-image: url(images/img1.png);
+        background-size: 242px;
+        background-size: 40%;
+        background-repeat: no-repeat;
+  }
+  
+     
+		</mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper  padding="0px 0 0"  css-class="body-section ">
+        <!-- Company Header -->
+        <mj-section padding="0px 0 35px 40px">
+            <mj-column padding="0">
+              <mj-table padding="0">
+              <tr>
+                <td style="padding: 58px 0 0; width: 30%; text-align: left;"> 
+                  <img src="images/logo.png" style="width: 150px; ">
+                  <div style="height: 25px;"></div>
+                  <a href="#" style="display: block;   width: 108px; text-align: center; padding: 15px 0px;     font-style: normal;font-weight: bold;font-size: 16px;line-height: 24px;color: #01AAFF;border: 1px solid #F0F0F0;box-sizing: border-box;box-shadow: 0px 4px 15px rgba(135, 143, 148, 0.15);border-radius: 3px;">Log in</a>
+                </td>
+                <td style="padding: 0 0 43px ;width: 70%;">
+                  <span  class="head-bg"></span>  
+                </td>
+              </tr>
+            </mj-table>
+            </mj-column>
+        </mj-section> 
+
+
+        <mj-section padding="4px 40px 27px" >
+          <mj-column padding="0">
+            <mj-text padding="0 0 px" font-size="28px" line-height="42px" font-weight="700" align="center">Amazon Funnels: The new evolution in Amazon product launches</mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding=" 0 40px 10px">
+            <mj-column padding="0">
+                <mj-image align="center" padding="0"  src="images/img32.png" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding=" 0 40px 47px">
+            <mj-column padding="0">
+                <mj-text  padding="0 0 10px" font-size="18px" line-height="36px" font-weight="700" color="#00AAFF">
+                    Hi John,
+                </mj-text>
+                <mj-text padding="0 0 40px" font-size="16px" line-height="32px" font-weight="400" color="#19153E">
+                  Can you relate to any of the following questions?
+                </mj-text>
+                <mj-text padding="0 0 60px" font-size="16px" line-height="32px" font-weight="400" color="#19153E">
+                    <i>What's the best way to launch new products? </i><br>
+                    <i>What's the best way to get reviews?</i><br>
+                    <i>What's the best way to build an email and phone list?<i><br>
+                    <i>What's the best way to keep those scammers away?</i><br>
+                    <i>Is there anything out there better and simpler than ManyChat?</i>
+                </mj-text>
+
+                 <mj-text  padding="0 0 0px" font-size="22px" line-height="33px" font-weight="700" color="#00AAFF">
+                   You see, these are typical questions <span style="display:block; color: #19153E;">Amazon sellers are asking daily!</span>
+                </mj-text>
+
+                <mj-text padding="0 0 0px" font-size="16px" line-height="32px" font-weight="400" color="#19153E">
+                 It's imperative to be well informed and&nbsp;a&nbsp;head of the competition and&nbsp;be&nbsp;the first to use the newest and most efficient strategies. <br>For that reason, we’re excited to bring you the next evolution in Amazon&nbsp;product launches and post-purchase engagement, <a style="color: #10AFFF; text-decoration:underline;" href="#">Amazon&nbsp;Funnels</a>.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0 14px 34px" >
+          <mj-column padding="13px 0 26px" css-class="review-bg">
+          <mj-table padding="0 26px 30px">
+              <tr>
+                <td valign="top" width="14px" style="padding-right: 20px; opacity: 0.6;"><img width="14px" src="images/bl.png" /></td>
+                <td style="font-style: normal;font-weight: bold;font-size: 16px;line-height: 24px;color: #19153E;" valign="top">
+                  Due to the recent ManyChat restrictions in the EU, we weren't able to launch our products properly anymore, but the Funnels solved that problem for us. We're now independent of FB Messenger.
+                </td>
+              </tr>
+            </mj-table>
+
+            <mj-table padding="0 40px">
+              <tr>
+                <td width="63px" style="padding-right: 27px;"><img width="63px" src="images/kyle11.png" /></td>
+                <td>
+                  <div style="font-style: normal;font-weight: bold;font-size: 14px;line-height: 24px;etter-spacing: -0.0028em;color: #19153E;opacity: 0.75;">Torsten Willms</div>
+                  <div style="font-style: normal;font-weight: normal;font-size: 14px;line-height: 24px;letter-spacing: -0.0028em;color: #19153E;opacity: 0.75;">Vivere GmbH, Germany</div>
+                </td>
+              </tr>
+            </mj-table>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding=" 0 40px 30px">
+            <mj-column padding="0">
+               <mj-text padding="0" font-size="16px" line-height="32px" font-weight="400" color="#19153E">
+                 We took the best parts of our  <a style="color: #10AFFF; text-decoration:underline;" href="#">Manychat module</a>, smashed it together with our landing page module, added SMS and Email functionality, and created dynamic, automated, fast loading, multi-step funnels that will help you launch products, rank for keywords, follow up with customers and build your buyer database!
+               </mj-text>
+               <mj-image padding="0 10px 0 20px" src="images/img33.png" alt="" />
+               <mj-text padding="0" font-size="16px" line-height="32px" font-weight="400" color="#19153E">
+                 We tested our funnels with various top Amazon sellers against Google, Facebook, Youtube, and other traffic sources, and the results were awe-inspiring!
+               </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="30px 40px 60px">
+            <mj-column padding="0">
+                  <mj-text  padding="0 0 0px" font-size="22px" line-height="33px" font-weight="700" color="#00AAFF">
+                   We are sure that Amazon Funnels is <span style="display:block; color: #19153E;">the Best 2021 product launch strategy.</span>
+                </mj-text>
+                  <mj-text padding="0 0 40px" font-size="16px" line-height="32px" font-weight="400" color="#19153E">
+                They don't have the defects of the ManyChat product launch&nbsp;strategy&nbsp;and&nbsp;yet all the benefits. You are in control. You control the funnel and the data. It's easy to use and understand. <br>...and it takes less than 10 minutes to set up and run!
+               </mj-text>
+
+               <mj-text padding="0 0 40px" font-size="18px" line-height="27px" font-weight="700" color="#19153E">
+                  Seriously, its that simple.
+               </mj-text>
+               <mj-button font-weight="700" font-size="16px" line-height="24px" inner-padding="15px 30px" border-radius="3px"	 padding="0" href="#"  background-color="#FF6565" color="white">
+                   View more
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+
+
+        <mj-section padding="0px 40px 40px">
+          <mj-column padding="0 0 32px" width="100%" >
+              <mj-text padding="0 0 " font-weight="700" font-size="22px" line-height="33px" color="#19153E">
+                  Our funnels offer full customization and flexibility.
+              </mj-text>
+          </mj-column>
+            <mj-column padding="0 0 38px" width="30%">
+               <mj-image width="106px" padding="0 0 6px" src="images/img34.png" alt="" align="center" />
+               <mj-text padding="0" align="center" font-weight="500" font-size="16px" line-height="32px" color="#19153E">
+                    Gift card <br>rebates
+               </mj-text>
+            </mj-column>
+            <mj-column padding="0 " width="5%"></mj-column>
+             <mj-column padding="0 0 38px" width="30%">
+               <mj-image width="106px" padding="0 0 6px" src="images/img35.png" alt="" align="center" />
+               <mj-text padding="0" align="center" font-weight="500" font-size="16px" line-height="32px" color="#19153E">
+                    Instant rebate and <br>warranty funnels
+               </mj-text>
+            </mj-column>
+            <mj-column padding="0 " width="5%"></mj-column>
+            <mj-column padding="0 0 38px" width="30%">
+               <mj-image width="106px" padding="0 0 6px" src="images/img36.png" alt="" align="center" />
+               <mj-text padding="0" align="center" font-weight="500" font-size="16px" line-height="32px" color="#19153E">
+                    Use any <br>traffic source 
+               </mj-text>
+            </mj-column>
+
+             <mj-column padding="0 0 38px" width="30%">
+               <mj-image width="106px" padding="0 0 6px" src="images/img37.png" alt="" align="center" />
+               <mj-text padding="0" align="center" font-weight="500" font-size="16px" line-height="32px" color="#19153E">
+                   Use custom domains, <br>QR codes 
+               </mj-text>
+            </mj-column>
+            <mj-column padding="0 " width="5%"></mj-column>
+             <mj-column padding="0 0 38px" width="30%">
+               <mj-image width="106px" padding="0 0 6px" src="images/img38.png" alt="" align="center" />
+               <mj-text padding="0" align="center" font-weight="500" font-size="16px" line-height="32px" color="#19153E">
+                    Track conversions <br>with pixels
+               </mj-text>
+            </mj-column>
+            <mj-column padding="0 " width="5%"></mj-column>
+            <mj-column padding="0 0 38px" width="30%">
+               <mj-image width="106px" padding="0 0 6px" src="images/img39.png" alt="" align="center" />
+               <mj-text padding="0" align="center" font-weight="500" font-size="16px" line-height="32px" color="#19153E">
+                    View <br>analytics
+               </mj-text>
+            </mj-column>
+
+             <mj-column padding="0 0 38px" width="30%">
+               <mj-image width="106px" padding="0 0 6px" src="images/img40.png" alt="" align="center" />
+               <mj-text padding="0" align="center" font-weight="500" font-size="16px" line-height="32px" color="#19153E">
+                   Email and SMS <br>list building
+               </mj-text>
+            </mj-column>
+            <mj-column padding="0 " width="5%"></mj-column>
+             <mj-column padding="0 0 38px" width="30%">
+               <mj-image width="106px" padding="0 0 6px" src="images/img41.png" alt="" align="center" />
+               <mj-text padding="0" align="center" font-weight="500" font-size="16px" line-height="32px" color="#19153E">
+                    Export leads <br>to Zapier
+               </mj-text>
+            </mj-column>
+            <mj-column padding="0 " width="5%"></mj-column>
+            <mj-column padding="0 0 38px" width="30%">
+               <mj-image width="106px" padding="0 0 6px" src="images/img42.png" alt="" align="center" />
+               <mj-text padding="0" align="center" font-weight="500" font-size="16px" line-height="32px" color="#19153E">
+                    Designed to match <br>your branding
+               </mj-text>
+            </mj-column>
+            
+        </mj-section>
+
+        <mj-section padding="22px 40px 30px">
+          <mj-column padding="0" width="100%">
+             <mj-text padding="0 0 40px" font-size="22px" line-height="33px" font-weight="700">
+                   With Amazon funnels, We’ve automated:
+                </mj-text>
+          </mj-column>
+          <mj-column padding="0" width="100%">
+               <mj-table padding="0 0">
+                    <tr>
+                        <td  width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle" style="padding: 0 0 10px; font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;"> Order verification</td>
+                    </tr>
+                    <tr>
+                        <td  width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle"  style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">Email verification</td>
+                    </tr>
+                    <tr>
+                        <td width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle" style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">Phone verification</td>
+                    </tr>
+                     <tr>
+                        <td width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle" style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">Address verification</td>
+                    </tr>
+                     <tr>
+                        <td width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle" style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">Gift card distribution</td>
+                    </tr>
+                     <tr>
+                        <td width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle" style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">Funnel continuation</td>
+                    </tr>
+                     <tr>
+                        <td width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle" style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">Funnel abandonment re-engagement</td>
+                    </tr>
+                    <tr>
+                        <td width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle" style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">Keyword rotation</td>
+                    </tr>
+                    <tr>
+                        <td width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle" style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">Feedback follow up</td>
+                    </tr>
+                    <tr>
+                        <td width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle" style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">Scammer protection</td>
+                    </tr>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="30px 40px ">
+          <mj-column padding="0" width="100%">
+             <mj-text padding="0 0" font-size="22px" line-height="33px" font-weight="700">
+                   Be in control of your Amazon launches and&nbsp;your&nbsp;data! 
+                </mj-text>
+                <mj-text padding="0 0" font-size="16px" line-height="32px" font-weight="400" color="#19153E">
+                  Drive traffic from Facebook, Google, Pinterest, or anywhere and send people into your funnel and build your list fast. These dynamic funnels teach your customers how to find your products using the method of your choice: 
+                </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section  padding="30px 40px ">
+          <mj-column padding="0 20px" width="60%">
+              <mj-image width="274px" padding="0" src="images/img43.png" alt="" />
+          </mj-column>
+          <mj-column padding="0 10px" width="40%">
+               <mj-table padding="0 0">
+                    <tr>
+                        <td  width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle" style="padding: 0 0 10px; font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;"> Search-Find-Buys</td>
+                    </tr>
+                    <tr>
+                        <td  width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle"  style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">Super URLs</td>
+                    </tr>
+                    <tr>
+                        <td  width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle"  style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">Direct URLs</td>
+                    </tr>
+                    <tr>
+                        <td  width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle"  style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">Social searching</td>
+                    </tr>
+                    <tr>
+                        <td  width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="middle"  style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">VIP customers</td>
+                    </tr>
+                 
+                </mj-table>
+            </mj-column>
+        </mj-section>
+
+        <mj-section  padding="30px 40px 60px">
+          <mj-column padding="0">
+             <mj-button font-weight="700" font-size="16px" line-height="24px" inner-padding="15px 30px" border-radius="3px"	 padding="0" href="#"  background-color="#FF6565" color="white">
+                   View more
+                </mj-button>
+          </mj-column>
+        </mj-section>
+
+        
+
+        <mj-section padding="0px 0px 30px 0"   >
+          <mj-column padding="0 10px 40px" >
+            <mj-image href="#" padding="0 0 8px" width="110px" align="center"  src="images/group2712.png" alt="" />
+            <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Support</mj-text>
+          </mj-column>
+          <mj-column padding="0 10px 40px">
+            <mj-image href="#" padding="0 0 8px" width="110px" align="center"   src="images/group3873.png" alt="" />
+            <mj-text padding="0" color="#19153E" align="center"  font-weight="700">Blog</mj-text>
+          </mj-column>
+          <mj-column padding="0 10px 40px">
+            <mj-image href="#" padding="0 0 8px" width="110px" align="center"  src="images/group3833.png" alt="" />
+            <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Video Training</mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0px 0 0">
+            <mj-column padding="0"><mj-divider padding="0"  border-width="1px" border-style="solid" border-color="#E6E6E6" /></mj-column>
+        </mj-section>
+
+        <mj-section padding="16px 40px 20px">
+          <mj-column padding="0">
+            <mj-text align="center" font-size="12px" line-height="18px" color="#505876" padding="0">
+             Copyright © 2021 Elite Seller Inc. All rights reserved. 
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0px 40px 20px">
+          <mj-column padding="0">
+            <mj-table padding="0" font-size="0">
+            
+              <tr>
+                <td style="padding: 0; width: 50%; text-align: right; font-size:0; line-height: 0;"> 
+                  <a href="#youtube" style="font-size:0;"><img src="images/youtube.png" width="56px"></a>
+                </td>
+                <td style="padding: 0 ;width: 50%; font-size:0;  line-height: 0;">
+                  <a href="#fb" style="padding-left: 23px; font-size:0;"><img src="images/fb.png" width="23px"></a>
+                </td>
+              </tr>
+            
+            </mj-table>
+          </mj-column>
+        </mj-section>
+        
+        <mj-section padding="0 40px 15px">
+          <mj-column>
+            <mj-text padding="0" text-decoration="none" color="#BDC6D2" font-size="12px" line-height="18px" align="center"> 
+              <a  href="#">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Contact Support </a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+    </mj-wrapper>
+   
+  </mj-body> 
+</mjml> 
