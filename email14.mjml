@@ -146,6 +146,10 @@ border-radius: 4px;
         background-size: 40%;
         background-repeat: no-repeat;
   }
+
+    .shadow {
+    box-shadow: 0px 4px 20px rgba(150, 179, 195, 0.25);
+  }
   
      
 		</mj-style>
@@ -438,19 +442,23 @@ border-radius: 4px;
 
         
 
-        <mj-section padding="0px 0px 30px 0"   >
-          <mj-column padding="0 10px 40px" >
-            <mj-image href="#" padding="0 0 8px" width="110px" align="center"  src="images/group2712.png" alt="" />
-            <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Support</mj-text>
+       <mj-section padding="0px 15px 60px" >
+       <mj-group width="513px">
+          <mj-column css-class="shadow" width="31%" padding="24px 12px"  border="1px solid #F2F2F2" border-radius="4px" background-color="#ffffff">
+            <mj-image href="#" padding="0 0 9px" width="34px" align="center"  src="images/group2712n.png" alt="" />
+            <mj-text font-size="14px"  padding="0" color="#19153E" align="center"   font-weight="700">Support</mj-text>
           </mj-column>
-          <mj-column padding="0 10px 40px">
-            <mj-image href="#" padding="0 0 8px" width="110px" align="center"   src="images/group3873.png" alt="" />
-            <mj-text padding="0" color="#19153E" align="center"  font-weight="700">Blog</mj-text>
+          <mj-column width="3%" padding="5px 0"></mj-column>
+          <mj-column css-class="shadow" width="31%" padding="24px 12px"  border="1px solid #F2F2F2" border-radius="4px" background-color="#ffffff">
+            <mj-image href="#" padding="0 0 10px" width="42px" align="center"  src="images/union121.png" alt="" />
+            <mj-text font-size="14px"  padding="0" color="#19153E" align="center"   font-weight="700">Blog</mj-text>
           </mj-column>
-          <mj-column padding="0 10px 40px">
-            <mj-image href="#" padding="0 0 8px" width="110px" align="center"  src="images/group3833.png" alt="" />
-            <mj-text padding="0" color="#19153E" align="center"   font-weight="700">Video Training</mj-text>
+          <mj-column width="3%" padding="5px 0"></mj-column>
+           <mj-column css-class="shadow" width="31%" padding="24px 12px"  border="1px solid #F2F2F2" border-radius="4px" background-color="#ffffff">
+            <mj-image href="#" padding="0 0 15.67px" width="41px" align="center"  src="images/1243.png" alt="" />
+            <mj-text font-size="14px" padding="0" color="#19153E" align="center"   font-weight="700">Training</mj-text>
           </mj-column>
+        </mj-group>
         </mj-section>
 
         <mj-section padding="0px 0 0">
