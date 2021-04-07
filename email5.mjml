@@ -224,19 +224,23 @@ border-radius: 4px;
 
        <mj-section padding="0px 15px 60px" >
        <mj-group width="513px">
-          <mj-column css-class="shadow" width="31%" padding="24px 12px"  border="1px solid #F2F2F2" border-radius="4px" background-color="#ffffff">
-            <mj-image href="#" padding="0 0 9px" width="34px" align="center"  src="images/group2712n.png" alt="" />
-            <mj-text font-size="14px"  padding="0" color="#19153E" align="center"   font-weight="700">Support</mj-text>
+          <mj-column css-class="shadow" width="31%" padding="0"  border="1px solid #F2F2F2" border-radius="4px" >
+           <mj-button width="100%" href="#" font-size="14px" inner-padding="17px 6px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
+              <img  style="margin-right: 5px; display: inline-block; vertical-align: middle;"  width="19px" src="images/1243.png" alt="" /> <span style="display: inline-block; vertical-align: middle;">Training</span>
+            </mj-button>
           </mj-column>
           <mj-column width="3%" padding="5px 0"></mj-column>
-          <mj-column css-class="shadow" width="31%" padding="24px 12px"  border="1px solid #F2F2F2" border-radius="4px" background-color="#ffffff">
-            <mj-image href="#" padding="0 0 10px" width="42px" align="center"  src="images/union121.png" alt="" />
-            <mj-text font-size="14px"  padding="0" color="#19153E" align="center"   font-weight="700">Blog</mj-text>
+
+          <mj-column css-class="shadow" width="31%" padding="0"  border="1px solid #F2F2F2" border-radius="4px" >
+           <mj-button width="100%" href="#" font-size="14px" inner-padding="17px 19px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
+              <img  style="margin-right: 5px; display: inline-block; vertical-align: middle;"  width="16px" src="images/union121.png" alt="" /> <span style="display: inline-block; vertical-align: middle;">Blog</span>
+            </mj-button>
           </mj-column>
           <mj-column width="3%" padding="5px 0"></mj-column>
-           <mj-column css-class="shadow" width="31%" padding="24px 12px"  border="1px solid #F2F2F2" border-radius="4px" background-color="#ffffff">
-            <mj-image href="#" padding="0 0 15.67px" width="41px" align="center"  src="images/1243.png" alt="" />
-            <mj-text font-size="14px" padding="0" color="#19153E" align="center"   font-weight="700">Training</mj-text>
+          <mj-column css-class="shadow" width="31%" padding="0"  border="1px solid #F2F2F2" border-radius="4px" >
+           <mj-button width="100%" href="#" font-size="14px" inner-padding="17px 8px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
+              <img  style="margin-right: 5px; display: inline-block; vertical-align: middle;"  width="16px" src="images/group2712n.png" alt="" /> <span style="display: inline-block; vertical-align: middle;">Support</span>
+            </mj-button>
           </mj-column>
         </mj-group>
         </mj-section>
