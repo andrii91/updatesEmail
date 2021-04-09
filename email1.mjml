@@ -17,14 +17,12 @@
         background-position: right top;
         border: 1px solid #CAE7FF;
       }
-      .head-bg {
-        background-image: url(images/component1.png);
+      .head_top-bg {
+        background-image: url(images/header_background.png);
         background-repeat: no-repeat;
-        background-position: right top;
-        background-size: 100%;
-        width: 100%;
-        height: 125px;
-        display: block;
+        background-position: left top;
+        background-size: 600px;
+            min-height: 196px;
       }
 
       .es-join-members {
@@ -60,21 +58,14 @@ border-radius: 4px;
   }
 
   .shadow {
-    box-shadow: 0px 4px 20px rgba(150, 179, 195, 0.25);
+    border: 1px solid #09adff;border-radius: 4px;
   }
   
      
 		</mj-style>
-<!--
-  <style type="text/css">
+
+ <!-- <style type="text/css">
     @media only screen and (max-width:480px) {
-      .colum-img td {
-      width: 100%!important;
-      padding-bottom: 15px;
-    }
-    .mt15 {
-      margin-top: 15px !important;
-    }
       table.mj-full-width-mobile {
         width: 100% !important;
       }
@@ -82,15 +73,33 @@ border-radius: 4px;
       td.mj-full-width-mobile {
         width: auto !important;
       }
+      .colum-img {
+        float: none !important;
+        max-width: 100% !important;
+      }
+      .colum-text {
+        max-width: 80% !important;
+        padding: 0 !important;
+        margin: 0px 10% 40px !important;
+      }
+      .head-bg {
+        background-image: url(images/component2.png)!important;
+        background-repeat: no-repeat!important;
+        background-position: right top!important;
+        background-size: 100%!important;
+        height: 110px !important;
+        max-width: 210px !important;
+        margin-left: auto !important;
+      }
     }
-  </style>
-  -->
+  </style>-->
+
   </mj-head>
   <mj-body>
     <mj-wrapper background-color="#FFFFFF" padding="0px 0 0"  css-class="body-section ">
         <!-- Company Header -->
-        <mj-section padding="0px 0 35px 40px">
-            <mj-column padding="0">
+        <mj-section padding="0px 0 0px 0px">
+            <mj-column padding="0 0 0 40px" css-class="head_top-bg">
               <mj-table padding="0">
               <tr>
                 <td style="padding: 58px 0 0; width: 30%; text-align: left;"> 
@@ -98,8 +107,8 @@ border-radius: 4px;
                   <div style="height: 25px;"></div>
                   <a href="https://app.eliteseller.com/access/sign-in" style="display: block;   width: 108px; text-align: center; padding: 15px 0px;     font-style: normal;font-weight: bold;font-size: 16px;line-height: 24px;color: #01AAFF;border: 1px solid #F0F0F0;box-sizing: border-box;box-shadow: 0px 4px 15px rgba(135, 143, 148, 0.15);border-radius: 3px;">Log in</a>
                 </td>
-                <td style="padding: 0 0 43px ;width: 70%;">
-                  <span  class="head-bg"></span>  
+                <td style="padding: 0 0 ;width: 70%;">
+                  <span  class="head-bg1"></span>  
                 </td>
               </tr>
             </mj-table>
@@ -187,21 +196,21 @@ border-radius: 4px;
 
        <mj-section padding="0px 15px 60px" >
        <mj-group width="513px">
-          <mj-column css-class="shadow" width="31%" padding="0"  border="1px solid #F2F2F2" border-radius="4px" >
+          <mj-column css-class="shadow" width="31%" padding="0"   border-radius="4px" >
            <mj-button width="100%" href="#" font-size="14px" inner-padding="17px 6px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
               <img  style="margin-right: 5px; display: inline-block; vertical-align: middle;"  width="19px" src="images/1243.png" alt="" /> <span style="display: inline-block; vertical-align: middle;">Training</span>
             </mj-button>
           </mj-column>
-          <mj-column width="3%" padding="5px 0"></mj-column>
+          <mj-column width="2.5%" padding="0"></mj-column>
 
-          <mj-column css-class="shadow" width="31%" padding="0"  border="1px solid #F2F2F2" border-radius="4px" >
+          <mj-column css-class="shadow" width="31%" padding="0"   border-radius="4px" >
            <mj-button width="100%" href="#" font-size="14px" inner-padding="17px 19px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
               <img  style="margin-right: 5px; display: inline-block; vertical-align: middle;"  width="16px" src="images/union121.png" alt="" /> <span style="display: inline-block; vertical-align: middle;">Blog</span>
             </mj-button>
           </mj-column>
-          <mj-column width="3%" padding="5px 0"></mj-column>
-          <mj-column css-class="shadow" width="31%" padding="0"  border="1px solid #F2F2F2" border-radius="4px" >
-           <mj-button width="100%" href="#" font-size="14px" inner-padding="17px 8px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
+          <mj-column width="2.5%" padding="0"></mj-column>
+          <mj-column css-class="shadow" width="31%" padding="0"  border-radius="4px" >
+           <mj-button width="100%" href="#" font-size="14px" inner-padding="16.6px 8px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
               <img  style="margin-right: 5px; display: inline-block; vertical-align: middle;"  width="16px" src="images/group2712n.png" alt="" /> <span style="display: inline-block; vertical-align: middle;">Support</span>
             </mj-button>
           </mj-column>
