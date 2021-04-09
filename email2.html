@@ -20,6 +20,21 @@
       -ms-text-size-adjust: 100%;
     }
 
+    .darkLogo {
+      display: block;
+    }
+    .whiteLogo {
+      display: none;
+    }
+    @media (prefers-color-scheme: dark) {
+    .darkLogo {
+      display: none;
+    }
+    .whiteLogo {
+      display: block;
+    }
+    }
+
     table,
     td {
       border-collapse: collapse;
@@ -166,7 +181,7 @@
                                           <table cellpadding="0" cellspacing="0" width="100%" border="0" style="color:#000000;font-family:'Inter',  Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none;">
                                             <tr>
                                               <td style="padding: 0; width: 30%; text-align: left;">
-                                                <img src="images/logo.png" style="width: 150px; ">
+                                                <a href="https://eliteseller.com/" style="color: #BDC6D2; text-decoration: none;"><img class="darkLogo" src="images/logo.png" style="width: 150px; "><img class="whiteLogo" src="images/logowhite.png" style="width: 150px; "></a>
                                               </td>
                                               <td style="padding: 0 ;width: 70%;">
                                                 <span class="head-bg" style="background-image: url(images/component1.png); background-repeat: no-repeat; background-position: right top; background-size: 100%; width: 100%; height: 125px; display: block;"></span>

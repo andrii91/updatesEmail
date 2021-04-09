@@ -20,6 +20,21 @@
       -ms-text-size-adjust: 100%;
     }
 
+    .darkLogo {
+      display: block;
+    }
+    .whiteLogo {
+      display: none;
+    }
+    @media (prefers-color-scheme: dark) {
+    .darkLogo {
+      display: none;
+    }
+    .whiteLogo {
+      display: block;
+    }
+    }
+
     table,
     td {
       border-collapse: collapse;
@@ -155,8 +170,7 @@
                                           <table cellpadding="0" cellspacing="0" width="100%" border="0" style="color:#000000;font-family:'Inter',  Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none;">
                                             <tr>
                                               <td style="padding: 58px 0 0; width: 30%; text-align: left;">
-                                                <img src="images/logo.png" style="width: 150px; ">
-                                                <div style="height: 25px;"></div>
+                                                <a href="https://eliteseller.com/" style="color: #BDC6D2; text-decoration: none;"><img class="darkLogo" src="images/logo.png" style="width: 150px; "><img class="whiteLogo" src="images/logowhite.png" style="width: 150px; "></a><div style="height: 25px;"></div>
                                                 <a href="#" style="text-decoration: none; display: block; width: 108px; text-align: center; padding: 15px 0px; font-style: normal; font-weight: bold; font-size: 16px; line-height: 24px; color: #01AAFF; border: 1px solid #F0F0F0; box-sizing: border-box; box-shadow: 0px 4px 15px rgba(135, 143, 148, 0.15); border-radius: 3px;">Log in</a>
                                               </td>
                                               <td style="padding: 0 0 43px ;width: 70%;">
