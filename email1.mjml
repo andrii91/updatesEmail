@@ -43,7 +43,8 @@
         width: 100% !important;
       }
    .colum-img td {
-      width: 100%
+      max-width: 100% !important;
+        width: 100% !important;
     }
     .footer-bg {
         background-position: left bottom !important;
@@ -60,7 +61,20 @@ border-radius: 4px;
   .shadow {
     border: 1px solid #09adff;border-radius: 4px;
   }
-  
+
+    .shadow2 {
+      background: #FFFFFF;
+      box-shadow: 0px 4px 19px #C0DFFE;
+      border-radius: 8px;
+      border: 1px solid #C0DFFE;
+    }
+
+    .sectionbg {
+        background-position: center !important;
+        background-image: url(images/vector750.png);
+        background-size: 600px;
+        background-repeat: no-repeat;
+    }
      
 		</mj-style>
 
@@ -82,14 +96,9 @@ border-radius: 4px;
         padding: 0 !important;
         margin: 0px 10% 40px !important;
       }
-      .head-bg {
-        background-image: url(images/component2.png)!important;
-        background-repeat: no-repeat!important;
-        background-position: right top!important;
-        background-size: 100%!important;
-        height: 110px !important;
-        max-width: 210px !important;
-        margin-left: auto !important;
+     .colum-img td {
+        max-width: 100% !important;
+        width: 100% !important;
       }
     }
   </style>-->
@@ -188,28 +197,76 @@ border-radius: 4px;
 
         <mj-section> 
           <mj-column padding="10px 40px 40px">
-            <mj-button font-size="16px" line-height="24px" inner-padding="15px 25px" font-weight="700" background-color="#FF6067" color="white" href="#">
+            <mj-button padding="0" font-size="16px" line-height="24px" inner-padding="15px 30px" font-weight="700" background-color="#FF6067" color="white" href="#">
               Verify my email
             </mj-button>
           </mj-column>
         </mj-section>
 
+        <mj-section css-class="sectionbg" padding="0 40px 60px">
+          <mj-column padding="0" width="100%">
+            <mj-text padding="0 0 30px" font-size="22px" line-height="33px" font-weight="700" color="#000000"> Upcoming Events</mj-text>
+          </mj-column>
+
+          <mj-column css-class="shadow2" padding="12px 9px" width="30%">
+            <mj-text padding="0 0 17px" align="center" font-size="16px" line-height="21px" font-weight="700" color="#000000">
+              Manychat<br> launch
+            </mj-text>
+            <mj-image css-class="colum-img" padding="0" href="#" src="images/group-2613.png" alt="" />
+
+            <mj-text align="center" padding="25px 0 0"  font-size="14px" line-height="18px" font-weight="700" color="#0097E2"> 
+              Start: 22/4 2pm CST 
+            </mj-text>
+          </mj-column>
+          <mj-column width="3%" padding="15px"></mj-column>
+          <mj-column css-class="shadow2" padding="12px 9px" width="30%">
+            <mj-text padding="0 0 17px" align="center" font-size="16px" line-height="21px" font-weight="700" color="#000000">
+              Build your<br> listings
+            </mj-text>
+            <mj-image css-class="colum-img" padding="0" href="#" src="images/group4518.png" alt="" />
+
+            <mj-text align="center" padding="25px 0 0"  font-size="14px" line-height="18px" font-weight="700" color="#0097E2"> 
+              Start: 29/4 2pm CST
+            </mj-text>
+          </mj-column>
+          <mj-column width="3%" padding="15px"></mj-column>
+          <mj-column css-class="shadow2" padding="12px 9px" width="30%">
+            <mj-text padding="0 0 17px" align="center" font-size="16px" line-height="21px" font-weight="700" color="#000000">
+              Dashboard with<br> KPI’s
+            </mj-text>
+            <mj-image css-class="colum-img" padding="0" href="#" src="images/group4519.png" alt="" />
+
+            <mj-text align="center" padding="25px 0 0"  font-size="14px" line-height="18px" font-weight="700" color="#0097E2"> 
+              Start: 22/4 2pm CST 
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="100%" padding="30px 0 0">
+             <mj-button padding="0" font-size="16px" line-height="24px" inner-padding="15px 30px" font-weight="700" background-color="#FF6067" color="white" href="#">
+              See what else is new
+            </mj-button>
+          </mj-column>
+        </mj-section>
+
        <mj-section padding="0px 15px 60px" >
+          <mj-column padding="0" width="100%">
+            <mj-text align="center" padding="0 0 60px" font-size="22px" line-height="33px" font-weight="700" color="#000000"> <span style="color: #00AAFF;">Still reading? Good.</span><br> This is just the beginning of winning. </mj-text>
+          </mj-column>
        <mj-group width="513px">
-          <mj-column css-class="shadow" width="31%" padding="0"   border-radius="4px" >
+          <mj-column css-class="shadow" width="30%" padding="0"   border-radius="4px" >
            <mj-button width="100%" href="#" font-size="14px" inner-padding="17px 6px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
               <img  style="margin-right: 5px; display: inline-block; vertical-align: middle;"  width="19px" src="images/1243.png" alt="" /> <span style="display: inline-block; vertical-align: middle;">Training</span>
             </mj-button>
           </mj-column>
-          <mj-column width="2.5%" padding="0"></mj-column>
+          <mj-column width="3%" padding="0"></mj-column>
 
-          <mj-column css-class="shadow" width="31%" padding="0"   border-radius="4px" >
+          <mj-column css-class="shadow" width="30%" padding="0"   border-radius="4px" >
            <mj-button width="100%" href="#" font-size="14px" inner-padding="17px 19px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
               <img  style="margin-right: 5px; display: inline-block; vertical-align: middle;"  width="16px" src="images/union121.png" alt="" /> <span style="display: inline-block; vertical-align: middle;">Blog</span>
             </mj-button>
           </mj-column>
-          <mj-column width="2.5%" padding="0"></mj-column>
-          <mj-column css-class="shadow" width="31%" padding="0"  border-radius="4px" >
+          <mj-column width="3%" padding="0"></mj-column>
+          <mj-column css-class="shadow" width="30%" padding="0"  border-radius="4px" >
            <mj-button width="100%" href="#" font-size="14px" inner-padding="16.6px 8px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
               <img  style="margin-right: 5px; display: inline-block; vertical-align: middle;"  width="16px" src="images/group2712n.png" alt="" /> <span style="display: inline-block; vertical-align: middle;">Support</span>
             </mj-button>
