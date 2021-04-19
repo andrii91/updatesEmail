@@ -214,7 +214,7 @@ border-radius: 4px;
             <mj-text padding="0 0 30px" font-size="22px" line-height="33px" font-weight="700" color="#000000"> Upcoming Events</mj-text>
           </mj-column>
 
-          <mj-column css-class="shadow2" padding="12px 9px" width="45%">
+          <mj-column css-class="shadow2" padding="12px 15px" width="46%">
             <mj-text css-class="title_height" padding="0 0 7px" align="center" font-size="16px" line-height="21px" font-weight="700" color="#000000">
               How to create a dashboard with KPI’s to grow your Amazon business
             </mj-text>
@@ -227,7 +227,7 @@ border-radius: 4px;
 
           <mj-column width="30px" padding="15px"></mj-column>
 
-          <mj-column css-class="shadow2" padding="12px 9px" width="45%">
+          <mj-column css-class="shadow2" padding="12px 15px" width="46%">
             <mj-text css-class="title_height"  padding="0 0 7px" align="center" font-size="16px" line-height="21px" font-weight="700" color="#000000">
              How to find the best keywords to rank and build your listings 
             </mj-text>
@@ -240,7 +240,7 @@ border-radius: 4px;
 
           <mj-column width="100%" padding="15px"></mj-column>
 
-          <mj-column css-class="shadow2" padding="12px 9px" width="45%">
+          <mj-column css-class="shadow2" padding="12px 15px" width="46%">
             <mj-text css-class="title_height"  padding="0 0 7px" align="center" font-size="16px" line-height="21px" font-weight="700" color="#000000">
               How to create a dashboard with KPI’s to grow your Amazon business
             </mj-text>
@@ -253,7 +253,7 @@ border-radius: 4px;
 
           <mj-column width="30px" padding="15px"></mj-column>
 
-          <mj-column css-class="shadow2" padding="12px 9px" width="45%">
+          <mj-column css-class="shadow2" padding="12px 15px" width="46%">
             <mj-text css-class="title_height"  padding="0 0 7px" align="center" font-size="16px" line-height="21px" font-weight="700" color="#000000">
              How to find the best keywords to rank and build your listings 
             </mj-text>
