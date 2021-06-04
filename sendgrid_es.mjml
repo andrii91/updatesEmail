@@ -1,0 +1,434 @@
+<mjml>
+<mj-head>
+
+<!--
+
+<style type="text/css">
+    @media only screen and (min-width:480px) {
+      .mj-column-per-100 {
+        width: 100% !important;
+        max-width: 100%;
+      }
+
+      .mj-column-per-33-333333333333336 {
+        width: 33.333333333333336% !important;
+        max-width: 33.333333333333336%;
+      }
+      .colum-text {
+        margin-bottom: 30px;
+      }
+    }
+  </style>
+  <style type="text/css">
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile {
+        width: 100% !important;
+      }
+
+      td.mj-full-width-mobile {
+        width: auto !important;
+      }
+      .colum-img {
+        float: none !important;
+        max-width: 100% !important;
+      }
+      .colum-text {
+        max-width: 80% !important;
+        padding: 0 !important;
+        margin: 0px 10% 40px !important;
+      }
+      .head-bg {
+        background-image: url(images/component2.png)!important;
+        background-repeat: no-repeat!important;
+        background-position: right top!important;
+        background-size: 100%!important;
+        height: 110px !important;
+        max-width: 210px !important;
+        margin-left: auto !important;
+      }
+    }
+  </style>
+ 
+-->
+		<mj-title>Updates </mj-title>
+		<mj-preview>Updates </mj-preview>
+		<mj-attributes>
+      <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+			<mj-all font-family="'Inter',  Helvetica, Arial, sans-serif"></mj-all>
+			<mj-text font-weight="400" font-size="16px" color="#19153E" line-height="24px" font-family="'Inter', Helvetica, Arial, sans-serif"></mj-text>
+		</mj-attributes>
+    <mj-style inline="inline">
+			.body-section {
+				-webkit-box-shadow: 0px 5px 50px #CAE7FF;
+				-moz-box-shadow: 0px 5px 50px #CAE7FF;
+				box-shadow: 0px 5px 50px #CAE7FF; 
+        background-image: url('images/imgbg.png') !important;
+         background-color: #FFFFFF;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center 0px;
+        border: 1px solid #CAE7FF;
+      }
+
+      .review-bg {
+        border-radius: 15px;
+        background: url('images/imgbg1.png') !important;
+        background-size: cover !important;
+        background-position: center top;
+         background-repeat: no-repeat;
+      }
+      .head-bg {
+        background-image: url(images/component1.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 100%;
+        width: 100%;
+        height: 125px;
+        display: block;
+      }
+
+      .es-join-members {
+       	background-color: #FFFFFF;
+       	border: 1px solid #01AAFF;
+       	border-radius: 8px; 
+         margin: 0 40px !important;
+      }
+      a {
+        color: #BDC6D2;
+        text-decoration: none;
+      }
+
+      .colum-img {
+        background: #FFFFFF;
+        width: 100%;
+        max-width:45%;
+        float: left;  
+      }
+      .colum-img.float-right {
+          float: right;
+          max-width: 52%;
+              margin-top: -20px
+      }
+
+    .footer-bg {
+        background-position: left bottom !important;
+        background-image: url(images/group4009.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+  .box-shadow {
+    border: 2px solid #FFFFFF;
+box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+border-radius: 4px;
+  }
+  .colum-text {
+       max-width: 39%;
+       width: 100%;
+        display: inline-block;
+        padding-left: 8%;
+
+  }
+
+  .login-btn {
+      box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+  }
+  .align-left {
+      text-align: left;
+      margin-left: 0;
+      margin-right: 0;
+      
+  }
+  .bgright {
+       background-position: right top !important;
+        background-image: url(images/img1.png);
+        background-size: 242px;
+        background-size: 40%;
+        background-repeat: no-repeat;
+  }
+
+    .shadow {
+    box-shadow: 0px 4px 20px rgba(150, 179, 195, 0.25);
+  }
+  
+    .shadow2 {
+      background: #FFFFFF;
+      box-shadow: 0px 4px 19px #C0DFFE;
+      border-radius: 8px;
+      border: 1px solid #C0DFFE;
+    }
+
+    .sectionbg {
+        background-position: center !important;
+        background-image: url(images/vector750.png);
+        background-size: 600px;
+        background-repeat: no-repeat;
+    }
+      .title_height {
+        height: 84px;
+    }
+
+        .speaker-one {
+            background-image: url('images/frame4535.png') !important;
+            background-repeat: no-repeat !important;
+            background-size: cover  !important;
+            background-position: center  !important;
+            border-radius: 8px;
+            background-color: transparent !important;
+            max-width: 245px !important;
+            min-height: 241px !important;
+            overlow: hidden;
+
+        }
+        .speaker-one table, .speaker-one table td {
+            max-width: 245px !important;
+            min-height: 241px !important;
+        }
+        .speaker-one * {
+            background: none !important;
+        }
+
+        .speaker-two {
+            background-image: url('images/frame45351.png') !important;
+            background-repeat: no-repeat !important;
+            background-size: cover  !important;
+            background-position: center  !important;
+            border-radius: 8px;
+            background-color: transparent !important;
+            max-width: 245px !important;
+            min-height: 241px !important;
+            overlow: hidden;
+
+        }
+        .speaker-two table, .speaker-two table td {
+            max-width: 245px !important;
+            min-height: 241px !important;
+        }
+        .speaker-two * {
+            background: none !important;
+        }
+        .colum-img {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 40px rgba(193, 199, 233, 0.25);
+        border-radius: 0px 0px 16px 16px;
+        width: 100% !important;
+      }
+            .colum-img2x img {
+                max-width: 173px !important;
+            }
+   .colum-img td {
+      max-width: 100% !important;
+        width: 100% !important;
+    }
+    .footer-bg {
+        background-position: left bottom !important;
+        background-image: url(images/group4009.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+  .box-shadow {
+    border: 2px solid #FFFFFF;
+box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+border-radius: 4px;
+  }
+
+  .shadow {
+    border: 1px solid #09adff;border-radius: 4px;
+  }
+
+     
+		</mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper  padding="0px 0 0"  css-class="body-section ">
+        <!-- Company Header -->
+        <mj-section padding="0px 0 35px 40px">
+            <mj-column padding="0">
+              <mj-table padding="0">
+              <tr>
+                <td style="padding: 58px 0 0; width: 30%; text-align: left;"> 
+                  <a href="#"><img src="images/logo.png" style="width: 150px; "></a>
+                  <div style="height: 25px;"></div>
+                  <a href="#" style="display: block;   width: 108px; text-align: center; padding: 15px 0px;     font-style: normal;font-weight: bold;font-size: 16px;line-height: 24px;color: #01AAFF;border: 1px solid #F0F0F0;box-sizing: border-box;box-shadow: 0px 4px 15px rgba(135, 143, 148, 0.15);border-radius: 3px;">Log in</a>
+                </td>
+                <td style="padding: 0 0 43px ;width: 70%;">
+                  <span  class="head-bg"></span>  
+                </td>
+              </tr>
+            </mj-table>
+            </mj-column>
+        </mj-section> 
+
+
+        <mj-section padding="4px 40px 27px" >
+          <mj-column padding="0">
+            <mj-text padding="0 0 px" font-size="28px" line-height="42px" font-weight="700" align="center">Welcome to Elite Seller’s blog!</mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding=" 0 40px 30px">
+            <mj-column padding="0 0 0 20px">
+                <mj-image width="420px" align="center" padding="0"  src="images/blog_es.png" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding=" 0 40px 30px">
+            <mj-column padding="0">
+                <mj-text  padding="0 0 0px" font-size="18px" line-height="36px" font-weight="700" color="#00AAFF">
+                    Hi John,
+                </mj-text>
+                <mj-text padding="0 0 0px" font-size="16px" line-height="32px" font-weight="400" color="#19153E">
+                  Thanks for subscribing to articles from the Elite Seller blog. Now you’ll be the first to know when we publish a new post. <br>I promise we won’t stuff your inbox with repacked product updates. <br>At Elite Seller, we aim to write content that you can actually use to be more productive. Here’s what you can expect.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        
+        <mj-section padding="30px 40px 30px">
+            <mj-column padding="0">
+                <mj-table padding="0 0 30px">
+                    <tr>
+                        <td valign="top" width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="top" style="padding: 0 0 10px; font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">In-depth, actionable articles packed with advice that will help you work more efficiently </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" width="21px" style="padding: 0 14px 10px 0;     line-height: 0;"><img width="21px" height="21px" src="images/check.png" /></td>
+                        <td valign="top"  style=" padding: 0 0 10px;  font-style: normal;font-weight: normal;font-size: 16px;line-height: 19px;color: #19153E;">2-3 emails per week with links to our latest content.</td>
+                    </tr>
+                   
+                </mj-table>
+                  <mj-button font-weight="700" font-size="16px" line-height="24px" inner-padding="15px 30px" border-radius="3px"	 padding="0" href="#"  background-color="#FF6565" color="white">
+                   Read our most recent post
+                </mj-button>
+
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="30px 40px 40px">
+            <mj-column padding="0 0 20px" width="100%">
+                <mj-text padding="0" padding="0" font-size="22px" line-height="33px" font-weight="700" color="#19153E">
+                    What have i misssed?
+                </mj-text>
+            </mj-column>
+
+            <mj-column padding="15px 0" width="46%">
+                <mj-image align="left" padding="0" width="242px" src="images/imh22.png" alt="" />
+            </mj-column>
+            <mj-column width="8%" padding="0"></mj-column>
+            <mj-column padding="15px 0" width="46%">
+                <mj-text padding="0 0 15px" font-size="16px" line-height="24px" font-weight="700">
+                    H&M's Spring Collection Has Just Landed, and It's Giving Us 
+                </mj-text>
+                <mj-text padding="0"  font-size="16px" line-height="32px" >
+                    Fixed the discrepancies issue between seller central and ES for the Average Cost-perClick.
+                </mj-text>
+            </mj-column>
+
+            <mj-column padding="15px 0" width="46%">
+                <mj-image align="left" padding="0"  width="242px" src="images/img23.png" alt="" />
+            </mj-column>
+            <mj-column width="8%" padding="0"></mj-column>
+            <mj-column padding="15px 0" width="46%">
+                <mj-text padding="0 0 15px" font-size="16px" line-height="24px" font-weight="700">
+                    H&M's Spring Collection Has Just Landed, and It's Giving Us 
+                </mj-text>
+                <mj-text padding="0"  font-size="16px" line-height="32px" >
+                    Fixed the discrepancies issue between seller central and ES.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+               <mj-section css-class="sectionbg" padding="0 40px 60px">
+          <mj-column padding="0" width="100%">
+            <mj-text padding="0 0 30px" font-size="22px" line-height="33px" font-weight="700" color="#000000"> Upcoming Events</mj-text>
+          </mj-column>
+
+          <mj-column padding="0" width="46%" >
+            <mj-button align="left" href="#" height="241px" width="100%" css-class="speaker-one" padding="0 15px" inner-padding="0">
+                 <div style="text-align: left; margin-bottom: 30px;font-style: normal;font-weight: bold;font-size: 16px;line-height: 21px;color: #FFFFFF;">How to create a dashboard with KPI’s to grow your Amazon business</div>
+                 <div style="text-align: left; font-style: normal;font-weight: normal;font-size: 14px;line-height: 18px;color: #FFFFFF; margin-bottom: 55px;">Speaker: <b style="display:block;font-size: 16px;line-height: 24px;">Joshua Porter</b></div>
+                 <div style="text-align: left; font-style: normal;font-weight: normal;font-size: 14px;line-height: 18px;color: #FFFFFF;">Start: 06/5 2pm CST</div>
+            </mj-button>
+          </mj-column>
+          <mj-column width="30px" padding="15px"></mj-column>
+           <mj-column padding="0" width="46%" >
+            <mj-button align="left" href="#" height="241px" width="100%" css-class="speaker-two" padding="0 15px" inner-padding="0">
+                 <div style="text-align: left; margin-bottom: 30px;font-style: normal;font-weight: bold;font-size: 16px;line-height: 21px;color: #FFFFFF;">How to find the best keywords to rank and build your listings </div>
+                 <div style="text-align: left; font-style: normal;font-weight: normal;font-size: 14px;line-height: 18px;color: #FFFFFF; margin-bottom: 55px;">Speaker: <b style="display:block;font-size: 16px;line-height: 24px;">Ian Sells</b></div>
+                 <div style="text-align: left; font-style: normal;font-weight: normal;font-size: 14px;line-height: 18px;color: #FFFFFF;">Start: 29/4 2pm CST</div>
+            </mj-button>
+          </mj-column>
+
+          <mj-column width="100%" padding="30px 0 0">
+             <mj-button padding="0" font-size="16px" line-height="24px" inner-padding="15px 30px" font-weight="700" background-color="#FF6067" color="white" href="https://eliteseller.com/webinar">
+              See more events
+            </mj-button>
+          </mj-column>
+        </mj-section>
+
+       <mj-section padding="0px 15px 60px" >
+          <mj-column padding="0" width="100%">
+            <mj-text align="center" padding="0 0 60px" font-size="22px" line-height="33px" font-weight="700" color="#000000"> <span style="color: #00AAFF;">Still reading? Good.</span><br> This is just the beginning of winning. </mj-text>
+          </mj-column>
+       <mj-group width="513px">
+          <mj-column css-class="shadow" width="30%" padding="0"   border-radius="4px" >
+           <mj-button width="100%" href="#" font-size="14px" inner-padding="17px 6px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
+              <img  style="margin-right: 5px; display: inline-block; vertical-align: middle;"  width="19px" src="images/1243.png" alt="" /> <span style="display: inline-block; vertical-align: middle;">Training</span>
+            </mj-button>
+          </mj-column>
+          <mj-column width="3%" padding="0"></mj-column>
+
+          <mj-column css-class="shadow" width="30%" padding="0"   border-radius="4px" >
+           <mj-button width="100%" href="#" font-size="14px" inner-padding="17px 19px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
+              <img  style="margin-right: 5px; display: inline-block; vertical-align: middle;"  width="16px" src="images/union121.png" alt="" /> <span style="display: inline-block; vertical-align: middle;">Blog</span>
+            </mj-button>
+          </mj-column>
+          <mj-column width="3%" padding="0"></mj-column>
+          <mj-column css-class="shadow" width="30%" padding="0"  border-radius="4px" >
+           <mj-button width="100%" href="#" font-size="14px" inner-padding="16.6px 8px 16px" color="#19153E" align="center"  font-weight="700" padding="0"  background-color="#ffffff">
+              <img  style="margin-right: 5px; display: inline-block; vertical-align: middle;"  width="16px" src="images/group2712n.png" alt="" /> <span style="display: inline-block; vertical-align: middle;">Support</span>
+            </mj-button>
+          </mj-column>
+        </mj-group>
+        </mj-section>
+
+        <mj-section padding="0px 0 0">
+            <mj-column padding="0"><mj-divider padding="0"  border-width="1px" border-style="solid" border-color="#E6E6E6" /></mj-column>
+        </mj-section>
+
+        <mj-section padding="16px 40px 20px">
+          <mj-column padding="0">
+            <mj-text align="center" font-size="12px" line-height="18px" color="#505876" padding="0">
+             Copyright © 2021 Elite Seller Inc. All rights reserved. 
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-section padding="0px 40px 20px">
+          <mj-column padding="0">
+            <mj-table padding="0" font-size="0">
+            
+              <tr>
+                <td style="padding: 0; width: 50%; text-align: right; font-size:0; line-height: 0;"> 
+                  <a href="#youtube" style="font-size:0;"><img src="images/youtube.png" width="56px"></a>
+                </td>
+                <td style="padding: 0 ;width: 50%; font-size:0;  line-height: 0;">
+                  <a href="#fb" style="padding-left: 23px; font-size:0;"><img src="images/fb.png" width="23px"></a>
+                </td>
+              </tr>
+            
+            </mj-table>
+          </mj-column>
+        </mj-section>
+        
+        <mj-section padding="0 40px 15px">
+          <mj-column>
+            <mj-text padding="0" text-decoration="none" color="#BDC6D2" font-size="12px" line-height="18px" align="center"> 
+              <a  href="#">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Contact Support </a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+    </mj-wrapper>
+   
+  </mj-body> 
+</mjml> 
